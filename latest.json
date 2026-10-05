@@ -1,0 +1,27 @@
+{
+ "version": "1.5.1",
+ "date": "2026-10-05",
+ "notes": "· 照参考复刻：发来参考 PPT 或截图，幻灯片可以几乎照着排——色块小标题、虚线公式框、分栏虚线、方块项目符号、图文并排都能还原；做完会把参考图和幻灯片放在一起逐页对照\n· 论文 PDF 里的图和表直接截下来放进幻灯片，用原图不重画\n· 输入框里新增上下文窗口圆环：悬停可以看占了多少、各部分各占多少、还剩多少\n· 视频 / 图片卡片里单个格子点「重新生成」，只重做这一格，不再整条回答重来\n· 自动更新：以后多数更新只下载十几 MB，重启或退出时自动换上；换上后先自检，启动不了会自动退回",
+ "files": {
+  "win32-x64-app": {
+   "name": "Clause-1.5.1-app.asar.gz",
+   "size": 11989916,
+   "sha256": "9b5e53ad17a515d31ed10f4c48f0450bb31fcd47097c0e2328caa30b93a21659",
+   "unpacked": {
+    "size": 18196869,
+    "sha256": "894d6b47e15ba0fa746c17d02e35e2213b88a0566b1024ac90f1656a5da9db3f"
+   },
+   "electron": "44.4.3",
+   "from": "1.5.1",
+   "urls": [
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@v1.5.1/app/Clause-1.5.1-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@v1.5.1/app/Clause-1.5.1-app.asar.gz"
+   ]
+  },
+  "win32-x64": {
+   "name": "Clause-Setup-1.5.1-x64.exe",
+   "size": 119521412,
+   "sha256": "51b6baf901833e0fccaf543d5b2f972649c84696e319d0250964ff138e15a07c"
+  }
+ }
+}
