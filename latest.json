@@ -1,23 +1,23 @@
 {
- "version": "1.5.3",
+ "version": "1.5.5",
  "date": "2026-10-06",
- "notes": "· 输入框里的上下文圆环一开始就在（新对话里是空圈），用得越多填得越满，悬停能看详细的数字\n· 通过中转站用 Claude Opus 5.5 时，选的思考深度能用上了（之前中转站会拒绝，Clause 只好不带思考深度回答）",
+ "notes": "· 科研 PPT：模型可以像 Claude Code 那样用网页的写法设计一页，做出来的 PPT 里文字、色块、虚线框、弯箭头都能直接改\n· 做完 PPT，模型会逐页看大图、按检查清单改到没有问题为止；色块盖字、文字溢出、字太小、论文的图缩得太小，都会自动指出来\n· 发了参考图时，按「照参考复刻」来做，版面、配色、标题样式尽量一样\n· 本机模型窗口小时做深度研究不再卡住：快满时直接根据已读到的内容作答\n· 中转站一点思考都没返回时，会提示一次",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.5.3-app.asar.gz",
-   "size": 11997273,
-   "sha256": "e02a48353bc6f303ed0c89c0116c987639ef321be80f59780f70389ca7e4d073",
+   "name": "Clause-1.5.5-app.asar.gz",
+   "size": 12019211,
+   "sha256": "717051738391cf285851c4ca0965c0cc38de4cdd38558ca18db621d467c67a7d",
    "unpacked": {
-    "size": 18230826,
-    "sha256": "78bba207aaac03efab9a11f0e9ff32c4416eed8769b48b3768562ca4a7c273b2"
+    "size": 18290074,
+    "sha256": "b824d91b9b8d68158152cad710800d4f06d9083e4c90d7a348f2db49fd2b31d1"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/6ffb7a76f2cdd001782d94ec5037c30c4e2370d6/app/Clause-1.5.3-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@6ffb7a76f2cdd001782d94ec5037c30c4e2370d6/app/Clause-1.5.3-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@6ffb7a76f2cdd001782d94ec5037c30c4e2370d6/app/Clause-1.5.3-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@6ffb7a76f2cdd001782d94ec5037c30c4e2370d6/app/Clause-1.5.3-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/3257131afb74b9e4067cd120f2b3aa8408fb8109/app/Clause-1.5.5-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@3257131afb74b9e4067cd120f2b3aa8408fb8109/app/Clause-1.5.5-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@3257131afb74b9e4067cd120f2b3aa8408fb8109/app/Clause-1.5.5-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@3257131afb74b9e4067cd120f2b3aa8408fb8109/app/Clause-1.5.5-app.asar.gz"
    ]
   }
  }
