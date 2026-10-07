@@ -1,23 +1,23 @@
 {
- "version": "1.6.0",
+ "version": "1.6.1",
  "date": "2026-10-07",
- "notes": "· 子智能体：复杂的任务拆给多个子智能体并行做（同时最多 20 个，子智能体还能再开，最多三层）；有探索、规划、分叉几种，也能用你自己定义的（直接认 Claude Code 的 .claude/agents）\n· 后台：子智能体和长命令可以放到后台，做完自动告诉模型；关窗口时缩到托盘接着做，做完通知你；输入框上面的任务面板一览全部，可以单独停一个\n· 断点续跑：Clause 意外关掉后再打开，接着上次的进度做\n· 检查点：每条消息前自动存档，连按两下 Esc 回到任意一步——只恢复文件、只恢复对话，或者都恢复\n· 定时任务：「每 5 分钟看看构建」「每天 9 点总结新论文」，或者 /loop；侧栏的「定时任务」页面统一管理，关了窗口也照跑\n· 智能体团队：说「组个团队」，几个队友共用一份任务清单、互相发消息；你也可以直接给某个队友发消息\n· 动态工作流：模型写一个脚本，一次调度几十上百个子智能体，在后台分阶段做完再一次交回结果；/workflows 看进度、暂停、停止，跑得好的可以存成命令；自带 /deep-research（多来源交叉核对的调研）；消息里写 ultracode 就用工作流来做",
+ "notes": "· 修复：模型回答时，输入框下面的按钮会全部收起来（右边那组掉到第二行，模型名字和按钮上的文字都不见了），回答完有时还一直收着；现在按钮保持原样",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.0-app.asar.gz",
-   "size": 12241115,
-   "sha256": "064a3fa065625ce32a80fd625026c66c38c35726f2bc6af4e1b55d63e0ec3f4a",
+   "name": "Clause-1.6.1-app.asar.gz",
+   "size": 12241157,
+   "sha256": "440bfe6c686bb600038223e2694eb82177ebdf36ac448e8ba803411af2e4c7c1",
    "unpacked": {
-    "size": 19005715,
-    "sha256": "188b3a171e5164cf05de5199199b981c8b889a85102606e2b074761bc115112c"
+    "size": 19005835,
+    "sha256": "2122b87ca6d5a2b3a0267a9eb17e9bd49aba5a161003239ba03d8bf721e83a23"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/18e04fc23df4ec41cbe76ea703648e4fcdf4bfc3/app/Clause-1.6.0-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@18e04fc23df4ec41cbe76ea703648e4fcdf4bfc3/app/Clause-1.6.0-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@18e04fc23df4ec41cbe76ea703648e4fcdf4bfc3/app/Clause-1.6.0-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@18e04fc23df4ec41cbe76ea703648e4fcdf4bfc3/app/Clause-1.6.0-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/c42de1c23817cd8463c0eae932b5b0958c38bf0e/app/Clause-1.6.1-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@c42de1c23817cd8463c0eae932b5b0958c38bf0e/app/Clause-1.6.1-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@c42de1c23817cd8463c0eae932b5b0958c38bf0e/app/Clause-1.6.1-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@c42de1c23817cd8463c0eae932b5b0958c38bf0e/app/Clause-1.6.1-app.asar.gz"
    ]
   }
  }
