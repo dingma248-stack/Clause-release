@@ -1,23 +1,23 @@
 {
- "version": "1.5.5",
- "date": "2026-10-06",
- "notes": "· 科研 PPT：模型可以像 Claude Code 那样用网页的写法设计一页，做出来的 PPT 里文字、色块、虚线框、弯箭头都能直接改\n· 做完 PPT，模型会逐页看大图、按检查清单改到没有问题为止；色块盖字、文字溢出、字太小、论文的图缩得太小，都会自动指出来\n· 发了参考图时，按「照参考复刻」来做，版面、配色、标题样式尽量一样\n· 本机模型窗口小时做深度研究不再卡住：快满时直接根据已读到的内容作答\n· 中转站一点思考都没返回时，会提示一次",
+ "version": "1.5.6",
+ "date": "2026-10-07",
+ "notes": "· 新增「操作电脑」：全力档里，模型可以看屏幕、动鼠标键盘，帮你操作没有别的接口的普通软件（先支持 Windows）\n· 按应用授权：每个应用选「可操作 / 只能点 / 只能看」，没允许的应用在模型看到的截图里一律涂成灰色\n· 每一步都在对话里看得到（截图上标出点的位置）；按 Esc 立刻停止，你一动鼠标就暂停\n· 付款、删除、发送先问你，密码一律不替你输入\n· Claude 官方接口的 Opus、Sonnet 用官方的电脑操作工具，其他能看图的模型用「截图 + 坐标」\n· 设置 → 操作电脑 →「检查一下」：先试试这台电脑能不能用、模型会看到什么\n· 窗口变窄时，输入框下面的按钮不再叠在一起",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.5.5-app.asar.gz",
-   "size": 12019211,
-   "sha256": "717051738391cf285851c4ca0965c0cc38de4cdd38558ca18db621d467c67a7d",
+   "name": "Clause-1.5.6-app.asar.gz",
+   "size": 12093498,
+   "sha256": "e6c5c325be952c9d8f8a21c0253492caf85a671ca49ba4fbf09a79a3a8cf9d76",
    "unpacked": {
-    "size": 18290074,
-    "sha256": "b824d91b9b8d68158152cad710800d4f06d9083e4c90d7a348f2db49fd2b31d1"
+    "size": 18493646,
+    "sha256": "88d25d80477083a31e9e6b8911dea2f2e9541e67f3c73efba75ff8e2b518e203"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/3257131afb74b9e4067cd120f2b3aa8408fb8109/app/Clause-1.5.5-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@3257131afb74b9e4067cd120f2b3aa8408fb8109/app/Clause-1.5.5-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@3257131afb74b9e4067cd120f2b3aa8408fb8109/app/Clause-1.5.5-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@3257131afb74b9e4067cd120f2b3aa8408fb8109/app/Clause-1.5.5-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/a90446e7b77eae9d3d49889c7061b3a898fb51ac/app/Clause-1.5.6-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@a90446e7b77eae9d3d49889c7061b3a898fb51ac/app/Clause-1.5.6-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@a90446e7b77eae9d3d49889c7061b3a898fb51ac/app/Clause-1.5.6-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@a90446e7b77eae9d3d49889c7061b3a898fb51ac/app/Clause-1.5.6-app.asar.gz"
    ]
   }
  }
