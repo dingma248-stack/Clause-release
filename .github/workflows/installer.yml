@@ -1,0 +1,34 @@
+name: Publish the installer
+# Claude pushes the installer in parts to the `installer` branch and its version to installer.json here.
+# This joins the parts, checks them and publishes them as the newest release; the site's download button
+# links to releases/latest/download/Clause-Setup-x64.exe.
+on:
+  push:
+    branches: [main]
+    paths: [installer.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with:
+          ref: installer
+          path: installer
+      - name: Join the parts and check them
+        run: |
+          v=$(jq -r .version installer.json)
+          cat installer/parts/* > "Clause-Setup-$v-x64.exe"
+          echo "$(jq -r .sha256 installer.json)  Clause-Setup-$v-x64.exe" | sha256sum -c -
+          cp "Clause-Setup-$v-x64.exe" Clause-Setup-x64.exe
+          jq -r '.notes // ""' installer.json > notes.md
+          echo "V=$v" >> "$GITHUB_ENV"
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete "v$V" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "v$V" "Clause-Setup-$V-x64.exe" Clause-Setup-x64.exe --title "Clause $V" --notes-file notes.md --latest
