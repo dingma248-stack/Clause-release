@@ -1,23 +1,23 @@
 {
- "version": "1.6.3",
- "date": "2026-10-07",
- "notes": "· 修复：中转站余额不够时，卡片说成「API Key 有问题」；现在直接写「余额不足」，并带「换个模型」按钮\n· 余额不多、思考深度又开得高时会提示：中转站按最多能写多少先预扣，调低思考深度也许还能先用着\n· 修复：关了联网、没开文件夹时，模型拿不到子智能体和工作流（让两个智能体下棋，它说自己没有这个功能）；现在全力档里随时都能用",
+ "version": "1.6.4",
+ "date": "2026-10-08",
+ "notes": "· 关掉窗口时，Clause 缩到右下角托盘接着运行（以前没有任务在跑时，关窗口就直接退出）：任务接着做，定时任务照跑，点托盘图标就回来\n· 托盘图标从启动起一直在；要退出，右键点托盘图标，选「退出 Clause」\n· 在托盘里闲着时，新版本自己换上，换好后还在托盘里\n· 想要以前那样关窗口就退出：设置 → 通用 → 后台运行，关掉「关掉窗口时留在托盘」",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.3-app.asar.gz",
-   "size": 12242830,
-   "sha256": "621d797f4d9c6be93df31e042b813c18d15fd1809e8ffa54c709fe5a80d5f77c",
+   "name": "Clause-1.6.4-app.asar.gz",
+   "size": 12243717,
+   "sha256": "a51749dbb8d534fb1738a736d0086fe9c7920e8a84f243cb2e0fa970ffbed817",
    "unpacked": {
-    "size": 19010213,
-    "sha256": "9605a699322ace7733aa9aaed30352cd3882a9d5b1d3ad11104fec177517e09a"
+    "size": 19013157,
+    "sha256": "e42c60612e9db23c1563ec01ff501440d2b0640bdfebe3ed49d99b7449022e95"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/4971754de25970698fbada2fd0cae18b48287824/app/Clause-1.6.3-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@4971754de25970698fbada2fd0cae18b48287824/app/Clause-1.6.3-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@4971754de25970698fbada2fd0cae18b48287824/app/Clause-1.6.3-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@4971754de25970698fbada2fd0cae18b48287824/app/Clause-1.6.3-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/baf2d5d402c91d74acc06bba45a9fee2750a99c5/app/Clause-1.6.4-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@baf2d5d402c91d74acc06bba45a9fee2750a99c5/app/Clause-1.6.4-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@baf2d5d402c91d74acc06bba45a9fee2750a99c5/app/Clause-1.6.4-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@baf2d5d402c91d74acc06bba45a9fee2750a99c5/app/Clause-1.6.4-app.asar.gz"
    ]
   }
  }
