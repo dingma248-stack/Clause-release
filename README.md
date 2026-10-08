@@ -2,9 +2,11 @@
 
 一个优雅的桌面 AI 对话客户端，支持任何 OpenAI 兼容接口。
 
+官网和介绍视频：<https://dingma248-stack.github.io/Clause-release/>（网站文件在 `docs/`，由 GitHub Pages 发布）。
+
 ## 下载
 
-到 [Releases](https://github.com/dingma248-stack/Clause-release/releases/latest) 下载最新的 Windows 安装包 `Clause-Setup-<版本>-x64.exe`。
+在[官网](https://dingma248-stack.github.io/Clause-release/)点「Try Clause」，或者到 [Releases](https://github.com/dingma248-stack/Clause-release/releases/latest) 下载最新的 Windows 安装包 `Clause-Setup-x64.exe`。
 
 ## 自动更新
 

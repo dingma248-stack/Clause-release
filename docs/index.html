@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clause: every AI model, one quiet workspace</title>
+    <meta name="description" content="Clause is a free Windows app for DeepSeek, Qwen, Kimi, GPT, Claude and models on your own PC. It works in your folders, runs agents, researches the web and makes slides, and asks before it changes anything." />
+    <meta name="theme-color" content="#faf9f5" />
+    <meta property="og:title" content="Clause" />
+    <meta property="og:description" content="Every AI model, one quiet workspace. A free Windows app for DeepSeek, Qwen, Kimi, GPT, Claude and models on your own PC." />
+    <meta property="og:image" content="https://dingma248-stack.github.io/Clause-release/media/og.jpg" />
+    <meta property="og:url" content="https://dingma248-stack.github.io/Clause-release/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/icon-64.png" />
+    <link rel="apple-touch-icon" href="assets/icon-180.png" />
+    <link rel="preload" href="assets/fonts/newsreader.woff" as="font" type="font/woff" crossorigin />
+    <link rel="stylesheet" href="assets/site.css" />
+    <script>
+      // the language before anything is drawn: ?lang=, then the visitor's own choice, else English
+      ;(function () {
+        var l = 'en'
+        try {
+          var q = new URLSearchParams(location.search).get('lang')
+          var s = localStorage.getItem('clause-lang')
+          l = q === 'zh' || q === 'en' ? q : s === 'zh' ? 'zh' : 'en'
+        } catch (e) {}
+        var d = document.documentElement
+        d.lang = l === 'zh' ? 'zh-CN' : 'en'
+        d.setAttribute('data-lang', l)
+        d.className += ' js'
+        // the opening never waits on a script that didn't come
+        setTimeout(function () {
+          var h = document.querySelector('.hero')
+          if (h) h.className += ' on'
+        }, 3000)
+      })()
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main"><span lang="en">Skip to content</span><span lang="zh">跳到正文</span></a>
+
+    <header class="nav" id="top">
+      <div class="nav-in">
+        <a class="brand" href="#top" aria-label="Clause">
+          <span class="spark spark-sm" aria-hidden="true"></span>
+          <span class="wordmark">Clause</span>
+        </a>
+        <nav class="nav-links" aria-label="Sections" data-zh-label="栏目">
+          <a href="#features"><span lang="en">Features</span><span lang="zh">功能</span></a>
+          <a href="#local"><span lang="en">Run locally</span><span lang="zh">本地模型</span></a>
+          <a href="#faq"><span lang="en">FAQ</span><span lang="zh">常见问题</span></a>
+        </nav>
+        <div class="nav-end">
+          <div class="lang" role="group" aria-label="Language" data-zh-label="语言">
+            <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+            <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
+          </div>
+          <a class="btn btn-primary btn-sm" data-download href="https://github.com/dingma248-stack/Clause-release/releases/latest/download/Clause-Setup-x64.exe">
+            <span lang="en">Try Clause</span><span lang="zh">下载 Clause</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="halo-wrap" aria-hidden="true"><span class="halo"></span></div>
+        <div class="hero-mark" aria-hidden="true">
+          <span class="spark spark-lg bloom"></span>
+        </div>
+        <h1 class="display">
+          <span lang="en">Every model, one quiet workspace.</span>
+          <span lang="zh">所有模型，一个安静的工作台。</span>
+        </h1>
+        <p class="lede">
+          <span lang="en">Clause is a Windows app for DeepSeek, Qwen, Kimi, GPT, Claude and the models on your own PC. It reads and edits the files in your folders, runs your scripts, researches the web and makes your slides, and it asks before it changes anything.</span>
+          <span lang="zh">Clause 是一个 Windows 应用，接 DeepSeek、通义千问、Kimi、GPT、Claude，也能用你电脑上的本地模型。它能读改你文件夹里的文件、运行脚本、上网查资料、做 PPT，改动任何东西之前都会先问你。</span>
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary btn-lg" data-download href="https://github.com/dingma248-stack/Clause-release/releases/latest/download/Clause-Setup-x64.exe">
+            <svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v9.2m0 0 3.6-3.6M10 12.2 6.4 8.6M4 15.5h12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            <span lang="en">Try Clause</span><span lang="zh">下载 Clause</span>
+          </a>
+          <a class="btn btn-quiet btn-lg" href="#film" data-play>
+            <svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M7.2 5.6v8.8L14.4 10z" fill="currentColor" /></svg>
+            <span lang="en">Watch the film</span><span lang="zh">看介绍视频</span>
+          </a>
+        </div>
+        <p class="meta" data-meta>
+          <span lang="en">Free for Windows 10 and 11.<span class="ver" hidden> Version <b data-version></b>, <span data-size></span>.</span></span>
+          <span lang="zh">免费，支持 Windows 10 和 11。<span class="ver" hidden>版本 <b data-version></b>，<span data-size></span>。</span></span>
+        </p>
+
+        <div class="got" id="got" hidden role="status" aria-live="polite">
+          <div class="got-head">
+            <span class="got-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M5 10.4 8.4 13.6 15 6.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+            <strong><span lang="en">Your download has started</span><span lang="zh">已经开始下载</span></strong>
+            <button type="button" class="got-x" data-got-close aria-label="Close" data-zh-label="关闭"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 6l8 8M14 6l-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" /></svg></button>
+          </div>
+          <ol class="got-steps">
+            <li><span lang="en">Open <code>Clause-Setup-x64.exe</code> from your downloads.</span><span lang="zh">在下载文件夹里打开 <code>Clause-Setup-x64.exe</code>。</span></li>
+            <li><span lang="en">If Windows says “Windows protected your PC”, click <b>More info</b>, then <b>Run anyway</b>.</span><span lang="zh">如果 Windows 提示“Windows 已保护你的电脑”，点<b>更多信息</b>，再点<b>仍要运行</b>。</span></li>
+            <li><span lang="en">Follow the installer. Clause opens when it’s done.</span><span lang="zh">按安装程序的提示走，装好后 Clause 会自动打开。</span></li>
+          </ol>
+          <p class="got-foot">
+            <span class="got-other" hidden><span lang="en">Clause runs on Windows. Open this page on your Windows PC to install it.</span><span lang="zh">Clause 是 Windows 软件，请在 Windows 电脑上打开这个页面安装。</span></span>
+            <a data-download-again href="https://github.com/dingma248-stack/Clause-release/releases/latest/download/Clause-Setup-x64.exe"><span lang="en">Didn’t start? Download again</span><span lang="zh">没有开始？重新下载</span></a>
+          </p>
+        </div>
+
+        <figure class="film" id="film">
+          <div class="film-frame">
+            <video data-film playsinline muted loop preload="metadata" poster="media/poster-en.jpg" aria-label="A short film of Clause at work" data-zh-label="Clause 工作时的短片">
+              <source src="media/clause-en.mp4" type="video/mp4" />
+            </video>
+            <button type="button" class="film-play" data-film-toggle aria-label="Play" data-zh-label="播放">
+              <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="31" fill="currentColor" opacity=".92" /><path d="M26 21.5v21L43 32z" fill="#fff" /></svg>
+            </button>
+          </div>
+        </figure>
+      </section>
+
+      <section class="models" aria-labelledby="models-h">
+        <h2 id="models-h" class="h-small">
+          <span lang="en">Works with the models you already use</span><span lang="zh">接入你已经在用的模型</span>
+        </h2>
+        <ul class="model-list">
+          <li>DeepSeek</li>
+          <li><span lang="en">Qwen</span><span lang="zh">通义千问</span></li>
+          <li>Kimi</li>
+          <li><span lang="en">Zhipu GLM</span><span lang="zh">智谱 GLM</span></li>
+          <li><span lang="en">SiliconFlow</span><span lang="zh">硅基流动</span></li>
+          <li><span lang="en">Volcengine Ark</span><span lang="zh">火山方舟</span></li>
+          <li>OpenAI</li>
+          <li>Anthropic</li>
+          <li>OpenRouter</li>
+          <li>Ollama</li>
+          <li>Strata</li>
+        </ul>
+        <p class="models-note">
+          <span lang="en">Any service with an OpenAI-compatible API works too. Bring your own keys; you pay the provider directly.</span>
+          <span lang="zh">任何兼容 OpenAI 接口的服务都能接。用你自己的 API Key，费用直接付给服务商。</span>
+        </p>
+      </section>
+
+      <section class="features" id="features" aria-label="Features" data-zh-label="功能">
+        <article class="feature">
+          <div class="feature-text">
+            <h2 class="display-2"><span lang="en">Hand it a folder.</span><span lang="zh">把文件夹交给它。</span></h2>
+            <p>
+              <span lang="en">Link a project folder and Clause reads, searches and edits the files in it, runs your scripts and shows you exactly what changed. You decide how much it does on its own: ask before every change, only before risky ones, or never.</span>
+              <span lang="zh">绑定项目文件夹后，Clause 能读取、搜索和修改里面的文件，运行你的脚本，并把每一处改动清楚地列给你。放手多少由你决定：每次修改都先问、只在有风险时问，或者完全放手。</span>
+            </p>
+            <ul class="facts">
+              <li><span lang="en">Every change is backed up and can be undone</span><span lang="zh">每一处改动都有备份，可以撤销</span></li>
+              <li><span lang="en">Runs commands in PowerShell only if you switch them on</span><span lang="zh">只有你打开开关，才会运行 PowerShell 命令</span></li>
+              <li><span lang="en">Reads PDF, Word, Excel and PowerPoint files</span><span lang="zh">能读 PDF、Word、Excel 和 PowerPoint</span></li>
+            </ul>
+          </div>
+          <div class="shot"><picture><img data-shot="work" src="assets/shots/en/work.webp" width="1600" height="1200" loading="lazy" alt="Clause asking before it edits a Python script, with the change shown as a diff" data-zh-alt="Clause 修改 Python 脚本之前先问你，改动逐行列出" /></picture></div>
+        </article>
+
+        <article class="feature flip">
+          <div class="feature-text">
+            <h2 class="display-2"><span lang="en">Split the big jobs.</span><span lang="zh">大活儿，拆开干。</span></h2>
+            <p>
+              <span lang="en">When a task has parts, Clause starts sub-agents that work side by side, up to twenty at once, each with its own context, and brings their reports together. Longer jobs can run as workflows in the background while you keep talking.</span>
+              <span lang="zh">任务能拆开时，Clause 会派出子智能体同时开工，最多二十个，各自有独立的上下文，最后把报告汇总给你。更长的任务可以写成工作流，在后台跑，你接着聊别的。</span>
+            </p>
+          </div>
+          <div class="shot"><picture><img data-shot="agents" src="assets/shots/en/agents.webp" width="1600" height="1200" loading="lazy" alt="Three sub-agents checking three thesis chapters at the same time" data-zh-alt="三个子智能体同时核对论文的三章" /></picture></div>
+        </article>
+
+        <article class="feature">
+          <div class="feature-text">
+            <h2 class="display-2"><span lang="en">Make the deck.</span><span lang="zh">直接出 PPT。</span></h2>
+            <p>
+              <span lang="en">Ask for slides and Clause designs a PowerPoint you can edit: titles, charts, tables, equations and speaker notes. Send it a template or a slide you like and it follows the look. Open the file in PowerPoint, WPS or Keynote and keep going.</span>
+              <span lang="zh">说一句要做 PPT，Clause 就会设计一份能编辑的 PowerPoint：标题、图表、表格、公式、演讲备注都有。发给它一个模板或者你喜欢的页面，它会照着那个样子做。用 PowerPoint、WPS 或 Keynote 打开就能接着改。</span>
+            </p>
+          </div>
+          <div class="shot"><picture><img data-shot="slides" src="assets/shots/en/slides.webp" width="1600" height="1200" loading="lazy" alt="A six-slide deck made in the conversation, open on its chart slide" data-zh-alt="在对话里做好的六页 PPT，停在图表那一页" /></picture></div>
+        </article>
+
+        <article class="feature flip">
+          <div class="feature-text">
+            <h2 class="display-2"><span lang="en">Pick the model for the job.</span><span lang="zh">按任务挑模型。</span></h2>
+            <p>
+              <span lang="en">Reason with DeepSeek, write in Chinese with Qwen or Kimi, code with GPT or Claude, and keep private notes on a model that runs on your own PC. Switch in the middle of a conversation; Clause remembers how hard each model should think.</span>
+              <span lang="zh">推理用 DeepSeek，写中文用通义千问或 Kimi，写代码用 GPT 或 Claude，私密的内容交给你电脑上的本地模型。对话进行到一半也能换模型；每个模型想得多深，Clause 都会替你记着。</span>
+            </p>
+          </div>
+          <div class="shot"><picture><img data-shot="models" src="assets/shots/en/models.webp" width="1600" height="1200" loading="lazy" alt="The model menu in Clause, with DeepSeek, Qwen, Kimi and OpenAI models" data-zh-alt="Clause 的模型菜单：DeepSeek、通义千问、Kimi 和 OpenAI 的模型" /></picture></div>
+        </article>
+      </section>
+
+      <section class="local" id="local" aria-labelledby="local-h">
+        <div class="local-in">
+          <div class="local-text">
+            <h2 id="local-h" class="display-2"><span lang="en">A 125B model on your own PC.</span><span lang="zh">在自己电脑上跑 125B 模型。</span></h2>
+            <p>
+              <span lang="en">Clause installs Strata in one click and runs Qwen3.8-Flash-Next, a 125-billion-parameter mixture-of-experts model, on a gaming PC. It starts when you use it and lets go of the memory when you don’t. What you send it never leaves your computer.</span>
+              <span lang="zh">Clause 一键安装 Strata，用一台游戏电脑就能运行 Qwen3.8-Flash-Next，一个 1250 亿参数的混合专家模型。用的时候自动启动，不用时自动释放内存。你发给它的内容不会离开你的电脑。</span>
+            </p>
+            <dl class="specs">
+              <div><dt><span lang="en">Memory</span><span lang="zh">内存</span></dt><dd><span lang="en">48 GB, or 32 GB for the Coder size</span><span lang="zh">48 GB，Coder 版 32 GB</span></dd></div>
+              <div><dt><span lang="en">Graphics</span><span lang="zh">显卡</span></dt><dd><span lang="en">NVIDIA RTX 20-series or newer, or a recent AMD card</span><span lang="zh">NVIDIA RTX 20 系或更新，或较新的 AMD 显卡</span></dd></div>
+              <div><dt><span lang="en">Also</span><span lang="zh">另外</span></dt><dd><span lang="en">Models you run with Ollama work too</span><span lang="zh">Ollama 里的模型也能直接用</span></dd></div>
+            </dl>
+          </div>
+          <div class="shot"><picture><img data-shot="local" src="assets/shots/en/local.webp" width="1600" height="1200" loading="lazy" alt="An email to an advisor, written by the 125B model running on the PC" data-zh-alt="电脑上运行的 125B 模型写好的一封给导师的邮件" /></picture></div>
+        </div>
+      </section>
+
+      <section class="more" aria-labelledby="more-h">
+        <h2 id="more-h" class="h-small"><span lang="en">Also in Clause</span><span lang="zh">还有这些</span></h2>
+        <dl class="more-grid">
+          <div><dt><span lang="en">Deep research</span><span lang="zh">深度研究</span></dt><dd><span lang="en">Breaks the question down, searches several ways at once, reads pages and PDFs, and writes a report that cites its sources.</span><span lang="zh">拆解问题、多路同时搜索、读网页和 PDF 原文，写成带引用的报告。</span></dd></div>
+          <div><dt><span lang="en">Browser and apps</span><span lang="zh">浏览器和软件</span></dt><dd><span lang="en">With your permission it works in its built-in browser and in the apps on your PC, and asks before it submits, sends or pays.</span><span lang="zh">经你允许，它能在内置浏览器里和电脑上的软件里操作；提交、发送、付款之前都会先问你。</span></dd></div>
+          <div><dt><span lang="en">Memory</span><span lang="zh">记忆</span></dt><dd><span lang="en">Remembers what matters between chats. You can read and edit all of it.</span><span lang="zh">在对话之间记住要紧的事，记了什么你都能看、能改。</span></dd></div>
+          <div><dt><span lang="en">Projects</span><span lang="zh">项目</span></dt><dd><span lang="en">A folder, instructions and a model for each piece of work.</span><span lang="zh">每项工作一个项目：绑定文件夹、写好要求、选好模型。</span></dd></div>
+          <div><dt><span lang="en">Scheduled tasks</span><span lang="zh">定时任务</span></dt><dd><span lang="en">Runs a prompt every morning, or once at a set time.</span><span lang="zh">每天早上跑一次，或者到点运行一次。</span></dd></div>
+          <div><dt><span lang="en">Tools and skills</span><span lang="zh">工具和技能</span></dt><dd><span lang="en">Connect MCP servers and add skills of your own.</span><span lang="zh">接入 MCP 服务，添加你自己的技能。</span></dd></div>
+          <div><dt><span lang="en">Voice and screenshots</span><span lang="zh">语音和截图</span></dt><dd><span lang="en">Speak instead of typing, offline if you like, and drop a screenshot straight in.</span><span lang="zh">说话代替打字，也可以离线识别；截图直接放进输入框。</span></dd></div>
+          <div><dt><span lang="en">Pictures and video</span><span lang="zh">图片和视频</span></dt><dd><span lang="en">Generate images and video, and cut, caption and animate clips.</span><span lang="zh">生成图片和视频，还能剪辑、加字幕、做动画。</span></dd></div>
+          <div><dt><span lang="en">Usage</span><span lang="zh">用量</span></dt><dd><span lang="en">See the tokens each chat and each model used.</span><span lang="zh">每个对话、每个模型用了多少 token，一目了然。</span></dd></div>
+        </dl>
+      </section>
+
+      <section class="privacy" aria-labelledby="privacy-h">
+        <h2 id="privacy-h" class="statement">
+          <span lang="en">Your keys and chats stay on your computer.</span><span lang="zh">密钥和对话都留在你的电脑上。</span>
+        </h2>
+        <p>
+          <span lang="en">Clause has no account and no server of its own. Your API keys, chats and files are stored on your PC, and requests go straight from your computer to the provider you choose.</span>
+          <span lang="zh">Clause 没有账号，也没有自己的服务器。API Key、对话和文件都保存在你的电脑上，请求直接从你的电脑发给你选的服务商。</span>
+        </p>
+      </section>
+
+      <section class="start" aria-labelledby="start-h">
+        <h2 id="start-h" class="display-2"><span lang="en">Up and running in a few minutes</span><span lang="zh">几分钟就能用上</span></h2>
+        <ol class="steps">
+          <li>
+            <h3><span lang="en">Download Clause</span><span lang="zh">下载 Clause</span></h3>
+            <p><span lang="en">The installer is about 115 MB and needs 64-bit Windows 10 or 11.</span><span lang="zh">安装包约 115 MB，需要 64 位的 Windows 10 或 11。</span></p>
+          </li>
+          <li>
+            <h3><span lang="en">Run the installer</span><span lang="zh">运行安装包</span></h3>
+            <p><span lang="en">If Windows says “Windows protected your PC”, click More info, then Run anyway. Clause isn’t signed with a paid certificate yet.</span><span lang="zh">如果 Windows 提示“Windows 已保护你的电脑”，点“更多信息”，再点“仍要运行”。Clause 暂时还没有购买付费的代码签名证书。</span></p>
+          </li>
+          <li>
+            <h3><span lang="en">Add a model</span><span lang="zh">接上模型</span></h3>
+            <p><span lang="en">Paste an API key from DeepSeek, Qwen, Kimi, OpenAI or Anthropic, or install Strata or Ollama to run models on your PC.</span><span lang="zh">填入 DeepSeek、通义千问、Kimi、OpenAI 或 Anthropic 的 API Key，或者安装 Strata、Ollama，在自己电脑上跑模型。</span></p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="faq" id="faq" aria-labelledby="faq-h">
+        <h2 id="faq-h" class="display-2"><span lang="en">Questions</span><span lang="zh">常见问题</span></h2>
+        <div class="qa">
+          <details>
+            <summary><span lang="en">Does Clause cost anything?</span><span lang="zh">Clause 收费吗？</span></summary>
+            <p><span lang="en">No. Clause itself is free. When you use a model in the cloud, you pay its provider directly through your own API key. Models on your PC cost nothing to run.</span><span lang="zh">不收费。用云端模型时，费用通过你自己的 API Key 直接付给模型服务商；在自己电脑上跑模型不花钱。</span></p>
+          </details>
+          <details>
+            <summary><span lang="en">Which models can I use?</span><span lang="zh">能用哪些模型？</span></summary>
+            <p><span lang="en">DeepSeek, Qwen, Kimi, Zhipu GLM, SiliconFlow, Volcengine Ark, OpenAI, Anthropic and OpenRouter are set up for you; any other OpenAI-compatible service works too. On your PC, Clause runs Strata’s 125B model and any model you run with Ollama.</span><span lang="zh">DeepSeek、通义千问、Kimi、智谱 GLM、硅基流动、火山方舟、OpenAI、Anthropic 和 OpenRouter 都已经预设好，其他兼容 OpenAI 接口的服务也能接。本地方面，Clause 能运行 Strata 的 125B 模型，以及你用 Ollama 运行的任何模型。</span></p>
+          </details>
+          <details>
+            <summary><span lang="en">What does my PC need?</span><span lang="zh">对电脑有什么要求？</span></summary>
+            <p><span lang="en">For cloud models, any PC with 64-bit Windows 10 or 11. To run the 125B model locally you need 48 GB of RAM (32 GB for the Coder size) and an NVIDIA RTX 20-series or newer, or a recent AMD graphics card.</span><span lang="zh">用云端模型，64 位 Windows 10 或 11 就行。要在本地跑 125B 模型，需要 48 GB 内存（Coder 版 32 GB），以及 NVIDIA RTX 20 系或更新的显卡，或较新的 AMD 显卡。</span></p>
+          </details>
+          <details>
+            <summary><span lang="en">Where are my chats and keys kept?</span><span lang="zh">对话和密钥存在哪里？</span></summary>
+            <p><span lang="en">On your PC, in Clause’s own folder. There is no account and no Clause server. Model requests go straight from your computer to the provider you picked.</span><span lang="zh">都在你的电脑上，Clause 自己的文件夹里。没有账号，也没有 Clause 的服务器，模型请求直接从你的电脑发给你选的服务商。</span></p>
+          </details>
+          <details>
+            <summary><span lang="en">Windows warns me when I open the installer. Is that expected?</span><span lang="zh">打开安装包时 Windows 弹出警告，正常吗？</span></summary>
+            <p><span lang="en">Yes. Windows SmartScreen shows “Windows protected your PC” for apps without a paid code-signing certificate. Click More info, then Run anyway.</span><span lang="zh">正常。没有付费代码签名证书的软件，Windows SmartScreen 都会提示“Windows 已保护你的电脑”。点“更多信息”，再点“仍要运行”即可。</span></p>
+          </details>
+          <details>
+            <summary><span lang="en">How do updates work?</span><span lang="zh">怎么更新？</span></summary>
+            <p><span lang="en">Clause looks for new versions in the background and installs them the next time you quit. You can turn this off in Settings.</span><span lang="zh">Clause 会在后台检查新版本，在你下次退出时自动装好。不想自动更新可以在设置里关掉。</span></p>
+          </details>
+          <details>
+            <summary><span lang="en">Is there a Mac or Linux version?</span><span lang="zh">有 Mac 或 Linux 版吗？</span></summary>
+            <p><span lang="en">Not yet. Clause is for 64-bit Windows 10 and 11.</span><span lang="zh">暂时没有。Clause 目前支持 64 位的 Windows 10 和 11。</span></p>
+          </details>
+        </div>
+      </section>
+
+      <section class="last" aria-labelledby="last-h">
+        <span class="spark spark-md" aria-hidden="true"></span>
+        <h2 id="last-h" class="display-2"><span lang="en">Try Clause.</span><span lang="zh">试试 Clause。</span></h2>
+        <a class="btn btn-primary btn-lg" data-download href="https://github.com/dingma248-stack/Clause-release/releases/latest/download/Clause-Setup-x64.exe">
+          <svg class="i" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v9.2m0 0 3.6-3.6M10 12.2 6.4 8.6M4 15.5h12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          <span lang="en">Download for Windows</span><span lang="zh">下载 Windows 版</span>
+        </a>
+        <p class="meta"><span lang="en">Free for Windows 10 and 11.</span><span lang="zh">免费，支持 Windows 10 和 11。</span></p>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="foot-in">
+        <a class="brand" href="#top" aria-label="Clause"><span class="spark spark-sm" aria-hidden="true"></span><span class="wordmark">Clause</span></a>
+        <nav aria-label="More" data-zh-label="更多">
+          <a href="https://github.com/dingma248-stack/Clause-release/releases"><span lang="en">Release notes</span><span lang="zh">更新记录</span></a>
+          <button type="button" class="link" data-toggle-lang><span lang="en">中文</span><span lang="zh">English</span></button>
+        </nav>
+        <p class="fine"><span lang="en">© 2026 Clause. Model names belong to their makers.</span><span lang="zh">© 2026 Clause。文中的模型名称归各自的公司所有。</span></p>
+      </div>
+    </footer>
+
+    <script src="assets/site.js"></script>
+  </body>
+</html>
