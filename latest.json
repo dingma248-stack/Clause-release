@@ -1,23 +1,23 @@
 {
- "version": "1.6.9",
- "date": "2026-10-09",
- "notes": "· 桌宠的嘴照作者画的样子来：张大嘴时整条下嘴壳往下掉，露出里面和后脑的支架；念叨时嘴从前面裂开一道缝\n· 叼着的袜子挂在嘴里\n· 桌宠：输入框右上角的机器鸭，你打字时它看着你，模型思考时它也在想，答完蹦一下叫一声；闲着时走走、坐坐、发呆，偶尔把掉下来的袜子叼回来（设置 → 通用 → 个性化 → 桌宠 可以关）",
+ "version": "1.6.10",
+ "date": "2026-10-10",
+ "notes": "· Strata：选的文件夹路径里有中文时，安装页会提前标出来（中文 Windows 上 Strata 的程序打不开这样的路径，模型会加载失败）；已经装在这种路径下的，会告诉你怎么改\n· Strata：模型加载失败时说出真正的原因（比如看图组件没能启动），不再只显示 socket hang up，设置页上也写着\n· Strata：换位置重装时，已经下好的模型文件算进空间，不会再提示空间不够，也不会重新下载",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.9-app.asar.gz",
-   "size": 12380345,
-   "sha256": "f89c8c247637c3775a72458f9c9ce16ce7e19dfe98911667a786a28d65de6088",
+   "name": "Clause-1.6.10-app.asar.gz",
+   "size": 12384806,
+   "sha256": "51031fce263e3f1c0c1ec2802bddbd67647dfffd0c5406e87385f6efb782a675",
    "unpacked": {
-    "size": 19266907,
-    "sha256": "c46e02206093d22dcdec50acf9ac952a72da0a91c4bc6bddd070e2851e693eba"
+    "size": 19291980,
+    "sha256": "0c71687fd6dc6973111edd69434cc8dc50259ea4dca97725b39983bbb60e2e84"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/02fccf300cc645c0387d87d89cca859b787e9eee/app/Clause-1.6.9-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@02fccf300cc645c0387d87d89cca859b787e9eee/app/Clause-1.6.9-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@02fccf300cc645c0387d87d89cca859b787e9eee/app/Clause-1.6.9-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@02fccf300cc645c0387d87d89cca859b787e9eee/app/Clause-1.6.9-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/46248738c67884a5b76722b2f0966b786df00c27/app/Clause-1.6.10-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@46248738c67884a5b76722b2f0966b786df00c27/app/Clause-1.6.10-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@46248738c67884a5b76722b2f0966b786df00c27/app/Clause-1.6.10-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@46248738c67884a5b76722b2f0966b786df00c27/app/Clause-1.6.10-app.asar.gz"
    ]
   }
  }
