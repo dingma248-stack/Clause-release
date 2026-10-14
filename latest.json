@@ -1,23 +1,23 @@
 {
- "version": "1.6.10",
- "date": "2026-10-10",
- "notes": "· Strata：选的文件夹路径里有中文时，安装页会提前标出来（中文 Windows 上 Strata 的程序打不开这样的路径，模型会加载失败）；已经装在这种路径下的，会告诉你怎么改\n· Strata：模型加载失败时说出真正的原因（比如看图组件没能启动），不再只显示 socket hang up，设置页上也写着\n· Strata：换位置重装时，已经下好的模型文件算进空间，不会再提示空间不够，也不会重新下载",
+ "version": "1.6.11",
+ "date": "2026-10-14",
+ "notes": "· 新增 Clause 账号：设置 → 账号，用邮箱收验证码登录，第一次登录就是注册，不用设密码\n· 登录是可选的，不登录一切照常使用；以后的内置模型和充值会用到账号\n· 账号只记你的邮箱和登录时间，对话仍然只保存在你的电脑上",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.10-app.asar.gz",
-   "size": 12384806,
-   "sha256": "51031fce263e3f1c0c1ec2802bddbd67647dfffd0c5406e87385f6efb782a675",
+   "name": "Clause-1.6.11-app.asar.gz",
+   "size": 12389457,
+   "sha256": "d4d55773a49ff65a01ff3a5cfe1d7a1ca17310dee36ea5e13a1c898650c5889b",
    "unpacked": {
-    "size": 19291980,
-    "sha256": "0c71687fd6dc6973111edd69434cc8dc50259ea4dca97725b39983bbb60e2e84"
+    "size": 19318718,
+    "sha256": "91654caf25d75d1169a594e1524e3f43a7b247def664e95b06dbaa5516ac02d2"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/46248738c67884a5b76722b2f0966b786df00c27/app/Clause-1.6.10-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@46248738c67884a5b76722b2f0966b786df00c27/app/Clause-1.6.10-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@46248738c67884a5b76722b2f0966b786df00c27/app/Clause-1.6.10-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@46248738c67884a5b76722b2f0966b786df00c27/app/Clause-1.6.10-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/ab770a0f02dd9a224554ee9460d9612ced92d46d/app/Clause-1.6.11-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@ab770a0f02dd9a224554ee9460d9612ced92d46d/app/Clause-1.6.11-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@ab770a0f02dd9a224554ee9460d9612ced92d46d/app/Clause-1.6.11-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@ab770a0f02dd9a224554ee9460d9612ced92d46d/app/Clause-1.6.11-app.asar.gz"
    ]
   }
  }
