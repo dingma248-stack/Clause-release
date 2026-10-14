@@ -8,8 +8,9 @@
     <meta name="theme-color" content="#faf9f5" />
     <meta property="og:title" content="Clause" />
     <meta property="og:description" content="Every AI model, one quiet workspace. A free Windows app for DeepSeek, Qwen, Kimi, GPT, Claude and models on your own PC." />
-    <meta property="og:image" content="https://dingma248-stack.github.io/Clause-release/media/og.jpg" />
-    <meta property="og:url" content="https://dingma248-stack.github.io/Clause-release/" />
+    <meta property="og:image" content="https://www.clausechat.com/media/og.jpg" />
+    <meta property="og:url" content="https://www.clausechat.com/" />
+    <link rel="canonical" href="https://www.clausechat.com/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/png" sizes="64x64" href="assets/icon-64.png" />
@@ -17,13 +18,15 @@
     <link rel="preload" href="assets/fonts/newsreader.woff" as="font" type="font/woff" crossorigin />
     <link rel="stylesheet" href="assets/site.css" />
     <script>
-      // the language before anything is drawn: ?lang=, then the visitor's own choice, else English
+      // the language before anything is drawn: ?lang=, then the visitor's own choice, then the browser's language
+      // (Chinese for a Chinese browser), else English
       ;(function () {
         var l = 'en'
         try {
           var q = new URLSearchParams(location.search).get('lang')
           var s = localStorage.getItem('clause-lang')
-          l = q === 'zh' || q === 'en' ? q : s === 'zh' ? 'zh' : 'en'
+          var b = (navigator.languages && navigator.languages[0]) || navigator.language || ''
+          l = q === 'zh' || q === 'en' ? q : s === 'zh' || s === 'en' ? s : /^zh/i.test(b) ? 'zh' : 'en'
         } catch (e) {}
         var d = document.documentElement
         d.lang = l === 'zh' ? 'zh-CN' : 'en'
