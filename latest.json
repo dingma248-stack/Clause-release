@@ -1,23 +1,23 @@
 {
- "version": "1.6.11",
+ "version": "1.6.12",
  "date": "2026-10-14",
- "notes": "· 新增 Clause 账号：设置 → 账号，用邮箱收验证码登录，第一次登录就是注册，不用设密码\n· 登录是可选的，不登录一切照常使用；以后的内置模型和充值会用到账号\n· 账号只记你的邮箱和登录时间，对话仍然只保存在你的电脑上",
+ "notes": "· 更新改为优先从 Clause 自己的服务器下载，国内更快；服务器连不上时自动改用 GitHub\n· 官网换了新地址：www.clausechat.com\n· 账号验证码邮件换了新样式",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.11-app.asar.gz",
-   "size": 12389457,
-   "sha256": "d4d55773a49ff65a01ff3a5cfe1d7a1ca17310dee36ea5e13a1c898650c5889b",
+   "name": "Clause-1.6.12-app.asar.gz",
+   "size": 12389592,
+   "sha256": "6a0af793a089d34db071c1aa995a230d51d3a86b6a740689d2bccee1cec5fb11",
    "unpacked": {
-    "size": 19318718,
-    "sha256": "91654caf25d75d1169a594e1524e3f43a7b247def664e95b06dbaa5516ac02d2"
+    "size": 19319323,
+    "sha256": "fa3ff9b71ca885c838aa2e347f6cf19759c8035e8a02856dd1cc5f1004b164e3"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/ab770a0f02dd9a224554ee9460d9612ced92d46d/app/Clause-1.6.11-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@ab770a0f02dd9a224554ee9460d9612ced92d46d/app/Clause-1.6.11-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@ab770a0f02dd9a224554ee9460d9612ced92d46d/app/Clause-1.6.11-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@ab770a0f02dd9a224554ee9460d9612ced92d46d/app/Clause-1.6.11-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/170c99944bf38a7a07f12f26cdf48375672a0c7e/app/Clause-1.6.12-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@170c99944bf38a7a07f12f26cdf48375672a0c7e/app/Clause-1.6.12-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@170c99944bf38a7a07f12f26cdf48375672a0c7e/app/Clause-1.6.12-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@170c99944bf38a7a07f12f26cdf48375672a0c7e/app/Clause-1.6.12-app.asar.gz"
    ]
   }
  }
