@@ -189,30 +189,40 @@
     if (e.key === 'Escape' && got && !got.hidden) got.hidden = true
   })
 
-  // the newest version, as GitHub has it (the page says nothing when it can't find out)
+  // the newest version: as the download server has it (what the button gives), else as GitHub has it; the page says
+  // nothing when it can't find out
   function mb(n) {
     return (n / 1048576).toFixed(0) + ' MB'
   }
+  function show(v, size) {
+    $$('[data-version]').forEach(function (el) {
+      el.textContent = v
+    })
+    $$('[data-size]').forEach(function (el) {
+      el.textContent = mb(size)
+    })
+    $$('.meta .ver').forEach(function (el) {
+      el.hidden = false
+    })
+  }
+  function json(url, headers) {
+    return fetch(url, { headers: headers || {} }).then(function (r) {
+      return r.ok ? r.json() : null
+    })
+  }
   try {
-    fetch('https://api.github.com/repos/' + REPO + '/releases/latest', { headers: { Accept: 'application/vnd.github+json' } })
-      .then(function (r) {
-        return r.ok ? r.json() : null
-      })
+    json('https://www.clausechat.com/download/installer.json')
       .then(function (j) {
-        if (!j || !j.tag_name) return
-        var v = String(j.tag_name).replace(/^v/, '')
-        var exe = (j.assets || []).filter(function (x) {
-          return x.name === 'Clause-Setup-x64.exe'
-        })[0]
-        if (!exe) return
-        $$('[data-version]').forEach(function (el) {
-          el.textContent = v
-        })
-        $$('[data-size]').forEach(function (el) {
-          el.textContent = mb(exe.size)
-        })
-        $$('.meta .ver').forEach(function (el) {
-          el.hidden = false
+        if (j && j.version && j.size) return show(String(j.version), j.size)
+        throw new Error('not there')
+      })
+      .catch(function () {
+        return json('https://api.github.com/repos/' + REPO + '/releases/latest', { Accept: 'application/vnd.github+json' }).then(function (j) {
+          if (!j || !j.tag_name) return
+          var exe = (j.assets || []).filter(function (x) {
+            return x.name === 'Clause-Setup-x64.exe'
+          })[0]
+          if (exe) show(String(j.tag_name).replace(/^v/, ''), exe.size)
         })
       })
       .catch(function () {})
