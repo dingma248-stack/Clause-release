@@ -1,6 +1,6 @@
 {
- "version": "1.6.12",
- "sha256": "06f70cc9e7f3852b86a4000ed68bb97178780f31868f4ade495266aa5cc77c34",
- "size": 119827886,
- "notes": "Clause 1.6.12 for Windows 10 / 11 (64-bit).\n\nDownload **Clause-Setup-x64.exe** and run it. After that Clause keeps itself up to date.\nWindows may say it protected your PC (the installer isn't code-signed yet): choose More info → Run anyway.\n\n适用于 Windows 10 / 11（64 位）。下载 Clause-Setup-x64.exe 运行即可，之后 Clause 会自己更新。\nWindows 如果提示「已保护你的电脑」（安装包还没有代码签名），点「更多信息」→「仍要运行」。"
+ "version": "1.6.13",
+ "sha256": "a599bbbb6d85d118fad824f805cbb7fc92b7897aa091fde8f376503a7440f96a",
+ "size": 119831125,
+ "notes": "Clause 1.6.13 for Windows 10 / 11 (64-bit).\n\nDownload **Clause-Setup-x64.exe** and run it. After that Clause keeps itself up to date.\nWindows may say it protected your PC (the installer isn't code-signed yet): choose More info → Run anyway.\n\n适用于 Windows 10 / 11（64 位）。下载 Clause-Setup-x64.exe 运行即可，之后 Clause 会自己更新。\nWindows 如果提示「已保护你的电脑」（安装包还没有代码签名），点「更多信息」→「仍要运行」。"
 }
