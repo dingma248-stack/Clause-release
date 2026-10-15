@@ -1,23 +1,23 @@
 {
- "version": "1.6.12",
- "date": "2026-10-14",
- "notes": "· 更新改为优先从 Clause 自己的服务器下载，国内更快；服务器连不上时自动改用 GitHub\n· 官网换了新地址：www.clausechat.com\n· 账号验证码邮件换了新样式",
+ "version": "1.6.13",
+ "date": "2026-10-15",
+ "notes": "· 为即将推出的「Clause 内置模型」做好准备：开放后登录就能在模型菜单里直接用，不用自己的 API Key\n· 账号页面的一些细节改进",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.12-app.asar.gz",
-   "size": 12389592,
-   "sha256": "6a0af793a089d34db071c1aa995a230d51d3a86b6a740689d2bccee1cec5fb11",
+   "name": "Clause-1.6.13-app.asar.gz",
+   "size": 12407696,
+   "sha256": "eff21ebf213e8e7dc704b0e7330244969a60148783da30392fee387b7eb6429b",
    "unpacked": {
-    "size": 19319323,
-    "sha256": "fa3ff9b71ca885c838aa2e347f6cf19759c8035e8a02856dd1cc5f1004b164e3"
+    "size": 19380180,
+    "sha256": "a24c4b68f7382b3b32600f08c98c5857c4f15e63a90e034ac2c25b468c38edf8"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/170c99944bf38a7a07f12f26cdf48375672a0c7e/app/Clause-1.6.12-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@170c99944bf38a7a07f12f26cdf48375672a0c7e/app/Clause-1.6.12-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@170c99944bf38a7a07f12f26cdf48375672a0c7e/app/Clause-1.6.12-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@170c99944bf38a7a07f12f26cdf48375672a0c7e/app/Clause-1.6.12-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/3a93777f80ee1b88a5be371290f6bb69132023c8/app/Clause-1.6.13-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@3a93777f80ee1b88a5be371290f6bb69132023c8/app/Clause-1.6.13-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@3a93777f80ee1b88a5be371290f6bb69132023c8/app/Clause-1.6.13-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@3a93777f80ee1b88a5be371290f6bb69132023c8/app/Clause-1.6.13-app.asar.gz"
    ]
   }
  }
