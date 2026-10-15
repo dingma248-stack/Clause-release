@@ -1,23 +1,23 @@
 {
- "version": "1.6.15",
+ "version": "1.6.16",
  "date": "2026-10-15",
- "notes": "· 管理员可以在 设置 → 账号 → 管理 → 模型 里自己接入模型服务、拉取模型列表、定价上架\n· 为即将推出的更多 Clause 内置模型做好准备",
+ "notes": "· 内置模型的定价更细：支持缓存价格，上下文长度更准确",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.15-app.asar.gz",
-   "size": 12430372,
-   "sha256": "c886ddeca8a0d69ce93d52704c601ff43bf19e9ad7130f98156b72642fea9c87",
+   "name": "Clause-1.6.16-app.asar.gz",
+   "size": 12432977,
+   "sha256": "56ca51092c4c25eee587a00b37309dd5440728ab9cd245b52208f160fc1928e9",
    "unpacked": {
-    "size": 19459342,
-    "sha256": "b52279d4ed811f4b1c26ba3cae0208a0a3bee5a553bbbcf31cf91450bdc29506"
+    "size": 19469916,
+    "sha256": "1ef8e952b56d3db7e9b8959be71dc88eac6999173fd0d8b699f302820fd98345"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/60cfa8135a1281ac941e2c8f031dd2ee338d7ff8/app/Clause-1.6.15-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@60cfa8135a1281ac941e2c8f031dd2ee338d7ff8/app/Clause-1.6.15-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@60cfa8135a1281ac941e2c8f031dd2ee338d7ff8/app/Clause-1.6.15-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@60cfa8135a1281ac941e2c8f031dd2ee338d7ff8/app/Clause-1.6.15-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/7e36b52d8f6244fc9c29a7ccf47923b31b93da9d/app/Clause-1.6.16-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@7e36b52d8f6244fc9c29a7ccf47923b31b93da9d/app/Clause-1.6.16-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@7e36b52d8f6244fc9c29a7ccf47923b31b93da9d/app/Clause-1.6.16-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@7e36b52d8f6244fc9c29a7ccf47923b31b93da9d/app/Clause-1.6.16-app.asar.gz"
    ]
   }
  }
