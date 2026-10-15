@@ -1,23 +1,23 @@
 {
- "version": "1.6.17",
+ "version": "1.6.18",
  "date": "2026-10-15",
- "notes": "· 视频交给服务商以后会一直等到做完：不再有等待时限，断网、服务商忙都会接着等，点停止也不会丢\n· 管理员能看到上游下架了哪些模型",
+ "notes": "· Clause 内置的图片和视频模型：模型菜单里写着价钱（每张、每秒），选了视频模型时输入框旁边显示这次要扣多少\n· 视频交给 Clause 后由服务器一直等到做好：关掉 Clause、断网、点停止都不影响，做好的视频自动出现在对话里；没做成的全额退回余额\n· 管理 → 模型：上架时可以选「图片」「视频」，图片按张、视频按秒或按条（每种分辨率一个价）定价\n· 明细里写着每个视频的时长和分辨率、每次生成的图片张数、退回的钱",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.17-app.asar.gz",
-   "size": 12436020,
-   "sha256": "70efc418b9b1e4583b90cc3cffd513ebff2f2762fb59906ce19a7ba023ced9e1",
+   "name": "Clause-1.6.18-app.asar.gz",
+   "size": 12441274,
+   "sha256": "25f1f1a9deafe7a3f3c180e1f158ec1bbef8d5d872741e9633fac28f0318793d",
    "unpacked": {
-    "size": 19476829,
-    "sha256": "801fe862024cefdc452d0e47e161ed05188e1a868eb5132f5bb5263a9afa543e"
+    "size": 19496594,
+    "sha256": "4868bac55e485cab8b4d5d7ea28917723607c1bc4c605ba523549719d49e5f66"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/dc143b4f86c0c08328f45095009d4db7fc218b6c/app/Clause-1.6.17-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@dc143b4f86c0c08328f45095009d4db7fc218b6c/app/Clause-1.6.17-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@dc143b4f86c0c08328f45095009d4db7fc218b6c/app/Clause-1.6.17-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@dc143b4f86c0c08328f45095009d4db7fc218b6c/app/Clause-1.6.17-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/06f8f9ac43bd52bda27466f3d6a94c4dffae73f0/app/Clause-1.6.18-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@06f8f9ac43bd52bda27466f3d6a94c4dffae73f0/app/Clause-1.6.18-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@06f8f9ac43bd52bda27466f3d6a94c4dffae73f0/app/Clause-1.6.18-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@06f8f9ac43bd52bda27466f3d6a94c4dffae73f0/app/Clause-1.6.18-app.asar.gz"
    ]
   }
  }
