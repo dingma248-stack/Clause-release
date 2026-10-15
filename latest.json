@@ -1,23 +1,23 @@
 {
- "version": "1.6.13",
+ "version": "1.6.14",
  "date": "2026-10-15",
- "notes": "· 为即将推出的「Clause 内置模型」做好准备：开放后登录就能在模型菜单里直接用，不用自己的 API Key\n· 账号页面的一些细节改进",
+ "notes": "· 为「支付宝扫码充值」做好准备：开通后在 设置 → 账号 → 余额 里选金额、用手机支付宝扫码，付完自动到账",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.13-app.asar.gz",
-   "size": 12407696,
-   "sha256": "eff21ebf213e8e7dc704b0e7330244969a60148783da30392fee387b7eb6429b",
+   "name": "Clause-1.6.14-app.asar.gz",
+   "size": 12414227,
+   "sha256": "b34fe4f792787a53662a975434a2bada149f626c15bf155471b13e95288e1c6d",
    "unpacked": {
-    "size": 19380180,
-    "sha256": "a24c4b68f7382b3b32600f08c98c5857c4f15e63a90e034ac2c25b468c38edf8"
+    "size": 19403265,
+    "sha256": "945d538080153bd012904bc73a552d4f5c631f0ad7c70bf85b6184ceaa31f4ee"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/3a93777f80ee1b88a5be371290f6bb69132023c8/app/Clause-1.6.13-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@3a93777f80ee1b88a5be371290f6bb69132023c8/app/Clause-1.6.13-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@3a93777f80ee1b88a5be371290f6bb69132023c8/app/Clause-1.6.13-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@3a93777f80ee1b88a5be371290f6bb69132023c8/app/Clause-1.6.13-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/6a0b0460b9bf2dc0ce40e383187cc66573df74dc/app/Clause-1.6.14-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@6a0b0460b9bf2dc0ce40e383187cc66573df74dc/app/Clause-1.6.14-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@6a0b0460b9bf2dc0ce40e383187cc66573df74dc/app/Clause-1.6.14-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@6a0b0460b9bf2dc0ce40e383187cc66573df74dc/app/Clause-1.6.14-app.asar.gz"
    ]
   }
  }
