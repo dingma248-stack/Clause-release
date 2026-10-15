@@ -1,23 +1,23 @@
 {
- "version": "1.6.16",
+ "version": "1.6.17",
  "date": "2026-10-15",
- "notes": "· 内置模型的定价更细：支持缓存价格，上下文长度更准确",
+ "notes": "· 视频交给服务商以后会一直等到做完：不再有等待时限，断网、服务商忙都会接着等，点停止也不会丢\n· 管理员能看到上游下架了哪些模型",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.16-app.asar.gz",
-   "size": 12432977,
-   "sha256": "56ca51092c4c25eee587a00b37309dd5440728ab9cd245b52208f160fc1928e9",
+   "name": "Clause-1.6.17-app.asar.gz",
+   "size": 12436020,
+   "sha256": "70efc418b9b1e4583b90cc3cffd513ebff2f2762fb59906ce19a7ba023ced9e1",
    "unpacked": {
-    "size": 19469916,
-    "sha256": "1ef8e952b56d3db7e9b8959be71dc88eac6999173fd0d8b699f302820fd98345"
+    "size": 19476829,
+    "sha256": "801fe862024cefdc452d0e47e161ed05188e1a868eb5132f5bb5263a9afa543e"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/7e36b52d8f6244fc9c29a7ccf47923b31b93da9d/app/Clause-1.6.16-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@7e36b52d8f6244fc9c29a7ccf47923b31b93da9d/app/Clause-1.6.16-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@7e36b52d8f6244fc9c29a7ccf47923b31b93da9d/app/Clause-1.6.16-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@7e36b52d8f6244fc9c29a7ccf47923b31b93da9d/app/Clause-1.6.16-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/dc143b4f86c0c08328f45095009d4db7fc218b6c/app/Clause-1.6.17-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@dc143b4f86c0c08328f45095009d4db7fc218b6c/app/Clause-1.6.17-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@dc143b4f86c0c08328f45095009d4db7fc218b6c/app/Clause-1.6.17-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@dc143b4f86c0c08328f45095009d4db7fc218b6c/app/Clause-1.6.17-app.asar.gz"
    ]
   }
  }
