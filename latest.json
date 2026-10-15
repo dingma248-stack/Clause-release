@@ -1,23 +1,23 @@
 {
- "version": "1.6.19",
+ "version": "1.6.20",
  "date": "2026-10-15",
- "notes": "· Clause 内置模型显示它们的名字（模型菜单、输入框、回答底部、视频卡片、明细里都是）\n· 有新版本时，下好后窗口右上角会弹出提醒：写着新内容，可以马上重启更新，也可以稍后（退出时自动装上）\n· 设置 → 图片与视频：Clause 的图片、视频模型列在里面并写着价钱，「自动」时先用它们",
+ "notes": "· Clause 内置的视频模型：做好的视频下载快很多（能直接从生成它的地方下时就直接下），卡片上显示下载进度\n· 网络慢或断了，视频会从断的地方接着下，不用从头再来\n· 刚发新版本时点「检查更新」也找得到",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.19-app.asar.gz",
-   "size": 12442837,
-   "sha256": "ce11f47e5a68a89dfce0a5a6f98dc76e998968da152b5e515e1aaaf45ed3cdfb",
+   "name": "Clause-1.6.20-app.asar.gz",
+   "size": 12443948,
+   "sha256": "d4d61ab277744544a164be3dd9c189b1cacca9c3908021b3e9632b372ede83a0",
    "unpacked": {
-    "size": 19502031,
-    "sha256": "3f27660ccfc3a7cfa8da51e207a7c5976c0240ccf03a9be8ee4b7be8b50afb65"
+    "size": 19507351,
+    "sha256": "341014808d72524217309c42d05121cab035994013bf17a96e2c06211d4154a2"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/edd084d91d3f6e6d132c957834218045bb67ba7d/app/Clause-1.6.19-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@edd084d91d3f6e6d132c957834218045bb67ba7d/app/Clause-1.6.19-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@edd084d91d3f6e6d132c957834218045bb67ba7d/app/Clause-1.6.19-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@edd084d91d3f6e6d132c957834218045bb67ba7d/app/Clause-1.6.19-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/a5acab1930b35625609865b59085d1e988fc90ed/app/Clause-1.6.20-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@a5acab1930b35625609865b59085d1e988fc90ed/app/Clause-1.6.20-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@a5acab1930b35625609865b59085d1e988fc90ed/app/Clause-1.6.20-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@a5acab1930b35625609865b59085d1e988fc90ed/app/Clause-1.6.20-app.asar.gz"
    ]
   }
  }
