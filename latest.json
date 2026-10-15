@@ -1,23 +1,23 @@
 {
- "version": "1.6.21",
+ "version": "1.6.22",
  "date": "2026-10-15",
- "notes": "· 管理 → 模型：上架视频模型时，时长、分辨率、画面比例先帮着填好（上游的模型列表里写了就照它，没写就按这类模型常见的），只剩价钱要填",
+ "notes": "· Clause 关掉再打开时，正在做的视频会接着取回，不会再提示「先登录 Clause 账号」而失败\n· 视频卡片显示没做成，但 Clause 服务器上其实做好了的：点「重新生成」就取回来，不会再做一个，也不会再扣钱",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.21-app.asar.gz",
-   "size": 12444740,
-   "sha256": "c8decd03583ef9b02e92890b37654825b881ca622c699066edc34210ecf3d85e",
+   "name": "Clause-1.6.22-app.asar.gz",
+   "size": 12444992,
+   "sha256": "16aedc4e2002ffdb7cdedb8eb5ef8e7b8bb63438ca621f6639ecd198260cadae",
    "unpacked": {
-    "size": 19511150,
-    "sha256": "c8a44db0597ac4e93effe2d26094412154eb21c84a6883cbc868db76f2c5b04d"
+    "size": 19512875,
+    "sha256": "a12dc9608bc2d2a76a3dd3dc7916280d8fb36b27ef97a1057652ce8b3458cf03"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/f8e536d5bd1ec100b1ca49f97d37dfa6f57b8865/app/Clause-1.6.21-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@f8e536d5bd1ec100b1ca49f97d37dfa6f57b8865/app/Clause-1.6.21-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@f8e536d5bd1ec100b1ca49f97d37dfa6f57b8865/app/Clause-1.6.21-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@f8e536d5bd1ec100b1ca49f97d37dfa6f57b8865/app/Clause-1.6.21-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/7c9033fa8739a920c8ba5a898291ede5d1856b93/app/Clause-1.6.22-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@7c9033fa8739a920c8ba5a898291ede5d1856b93/app/Clause-1.6.22-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@7c9033fa8739a920c8ba5a898291ede5d1856b93/app/Clause-1.6.22-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@7c9033fa8739a920c8ba5a898291ede5d1856b93/app/Clause-1.6.22-app.asar.gz"
    ]
   }
  }
