@@ -1,23 +1,23 @@
 {
- "version": "1.6.22",
- "date": "2026-10-15",
- "notes": "· Clause 关掉再打开时，正在做的视频会接着取回，不会再提示「先登录 Clause 账号」而失败\n· 视频卡片显示没做成，但 Clause 服务器上其实做好了的：点「重新生成」就取回来，不会再做一个，也不会再扣钱",
+ "version": "1.6.23",
+ "date": "2026-10-16",
+ "notes": "· 视频时长更自由：支持一段范围的模型（比如 5 到 30 秒），每一秒都能选，要扣多少跟着显示\n· 管理 → 模型：能做的时长可以写范围，比如 5-30",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.22-app.asar.gz",
-   "size": 12444992,
-   "sha256": "16aedc4e2002ffdb7cdedb8eb5ef8e7b8bb63438ca621f6639ecd198260cadae",
+   "name": "Clause-1.6.23-app.asar.gz",
+   "size": 12445290,
+   "sha256": "6d280903069bff91ba1f244b72864743077194fc89a006a9d8a7120bd19c1262",
    "unpacked": {
-    "size": 19512875,
-    "sha256": "a12dc9608bc2d2a76a3dd3dc7916280d8fb36b27ef97a1057652ce8b3458cf03"
+    "size": 19513826,
+    "sha256": "7843da114849110ecb80f0304e7b62279cc97dd3690c39660acd7af982fd05ce"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/7c9033fa8739a920c8ba5a898291ede5d1856b93/app/Clause-1.6.22-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@7c9033fa8739a920c8ba5a898291ede5d1856b93/app/Clause-1.6.22-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@7c9033fa8739a920c8ba5a898291ede5d1856b93/app/Clause-1.6.22-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@7c9033fa8739a920c8ba5a898291ede5d1856b93/app/Clause-1.6.22-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/c24ddd2b81adbfa2fd652f12a1026b30d6de4906/app/Clause-1.6.23-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@c24ddd2b81adbfa2fd652f12a1026b30d6de4906/app/Clause-1.6.23-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@c24ddd2b81adbfa2fd652f12a1026b30d6de4906/app/Clause-1.6.23-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@c24ddd2b81adbfa2fd652f12a1026b30d6de4906/app/Clause-1.6.23-app.asar.gz"
    ]
   }
  }
