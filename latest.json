@@ -1,23 +1,23 @@
 {
- "version": "1.6.23",
- "date": "2026-10-16",
- "notes": "· 视频时长更自由：支持一段范围的模型（比如 5 到 30 秒），每一秒都能选，要扣多少跟着显示\n· 管理 → 模型：能做的时长可以写范围，比如 5-30",
+ "version": "1.6.24",
+ "date": "2026-10-17",
+ "notes": "· 对话里中途换了模型时，新模型不会再跟着之前的回答说自己是另一个模型（比如先用 GLM 再换 Opus，问它是谁会照实说是 Opus）",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.23-app.asar.gz",
-   "size": 12445290,
-   "sha256": "6d280903069bff91ba1f244b72864743077194fc89a006a9d8a7120bd19c1262",
+   "name": "Clause-1.6.24-app.asar.gz",
+   "size": 12445423,
+   "sha256": "9bf7154f73426b42b96e4f383b5608a5daac1fbfeeb4456d8526a5ff3b77d30f",
    "unpacked": {
-    "size": 19513826,
-    "sha256": "7843da114849110ecb80f0304e7b62279cc97dd3690c39660acd7af982fd05ce"
+    "size": 19514501,
+    "sha256": "5a76be6580a45a972aae98ea5e0ee7561cb2ec8c347bc1617fdd2e48aee8bd30"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/c24ddd2b81adbfa2fd652f12a1026b30d6de4906/app/Clause-1.6.23-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@c24ddd2b81adbfa2fd652f12a1026b30d6de4906/app/Clause-1.6.23-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@c24ddd2b81adbfa2fd652f12a1026b30d6de4906/app/Clause-1.6.23-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@c24ddd2b81adbfa2fd652f12a1026b30d6de4906/app/Clause-1.6.23-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/f34da502bc0daa6546e7514ed6787375cfcbb732/app/Clause-1.6.24-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@f34da502bc0daa6546e7514ed6787375cfcbb732/app/Clause-1.6.24-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@f34da502bc0daa6546e7514ed6787375cfcbb732/app/Clause-1.6.24-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@f34da502bc0daa6546e7514ed6787375cfcbb732/app/Clause-1.6.24-app.asar.gz"
    ]
   }
  }
