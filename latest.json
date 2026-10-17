@@ -1,23 +1,23 @@
 {
- "version": "1.6.24",
+ "version": "1.6.25",
  "date": "2026-10-17",
- "notes": "· 对话里中途换了模型时，新模型不会再跟着之前的回答说自己是另一个模型（比如先用 GLM 再换 Opus，问它是谁会照实说是 Opus）",
+ "notes": "· 管理 → 模型：上游的模型名带中文、空格或括号的也能上架了\n· 同一条提示连着出现时只显示一条，不再叠好几条",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.24-app.asar.gz",
-   "size": 12445423,
-   "sha256": "9bf7154f73426b42b96e4f383b5608a5daac1fbfeeb4456d8526a5ff3b77d30f",
+   "name": "Clause-1.6.25-app.asar.gz",
+   "size": 12445650,
+   "sha256": "b5a083fb4fe54f5db090b2395212ace6628edf93b8726081a2e0021223fb3e76",
    "unpacked": {
-    "size": 19514501,
-    "sha256": "5a76be6580a45a972aae98ea5e0ee7561cb2ec8c347bc1617fdd2e48aee8bd30"
+    "size": 19515002,
+    "sha256": "5fe99d1818736bf62eb588dab3c664ddb235950da5911a301ffc25d7039c52c7"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/f34da502bc0daa6546e7514ed6787375cfcbb732/app/Clause-1.6.24-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@f34da502bc0daa6546e7514ed6787375cfcbb732/app/Clause-1.6.24-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@f34da502bc0daa6546e7514ed6787375cfcbb732/app/Clause-1.6.24-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@f34da502bc0daa6546e7514ed6787375cfcbb732/app/Clause-1.6.24-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/7412534c9fc52c301de7011a3012c79e6a259570/app/Clause-1.6.25-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@7412534c9fc52c301de7011a3012c79e6a259570/app/Clause-1.6.25-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@7412534c9fc52c301de7011a3012c79e6a259570/app/Clause-1.6.25-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@7412534c9fc52c301de7011a3012c79e6a259570/app/Clause-1.6.25-app.asar.gz"
    ]
   }
  }
