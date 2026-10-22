@@ -1,23 +1,23 @@
 {
- "version": "1.6.25",
- "date": "2026-10-17",
- "notes": "· 管理 → 模型：上游的模型名带中文、空格或括号的也能上架了\n· 同一条提示连着出现时只显示一条，不再叠好几条",
+ "version": "1.6.26",
+ "date": "2026-10-22",
+ "notes": "· 第一次打开时可以直接用 Clause 账号开始：邮箱收验证码登录、兑换充值码，从内置模型里选一个就能用，不需要 API Key\n· 填 API Key 的页面下面多了「没有 Key？用 Clause 账号」，点了直接换到登录",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.25-app.asar.gz",
-   "size": 12445650,
-   "sha256": "b5a083fb4fe54f5db090b2395212ace6628edf93b8726081a2e0021223fb3e76",
+   "name": "Clause-1.6.26-app.asar.gz",
+   "size": 12449998,
+   "sha256": "d3596ed7bb72ba8edbf60ce2633080598701558b7393107bde5b639ad5c40a36",
    "unpacked": {
-    "size": 19515002,
-    "sha256": "5fe99d1818736bf62eb588dab3c664ddb235950da5911a301ffc25d7039c52c7"
+    "size": 19533158,
+    "sha256": "e79f803297d637c8ecfaed4c0b5b134d886c3fdb66e60434d278db3b239d191f"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/7412534c9fc52c301de7011a3012c79e6a259570/app/Clause-1.6.25-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@7412534c9fc52c301de7011a3012c79e6a259570/app/Clause-1.6.25-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@7412534c9fc52c301de7011a3012c79e6a259570/app/Clause-1.6.25-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@7412534c9fc52c301de7011a3012c79e6a259570/app/Clause-1.6.25-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/970afaf6a8c59e7e53879f62c7279774a6bef951/app/Clause-1.6.26-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@970afaf6a8c59e7e53879f62c7279774a6bef951/app/Clause-1.6.26-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@970afaf6a8c59e7e53879f62c7279774a6bef951/app/Clause-1.6.26-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@970afaf6a8c59e7e53879f62c7279774a6bef951/app/Clause-1.6.26-app.asar.gz"
    ]
   }
  }
