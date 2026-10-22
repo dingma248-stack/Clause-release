@@ -1,23 +1,23 @@
 {
- "version": "1.6.26",
+ "version": "1.6.27",
  "date": "2026-10-22",
- "notes": "· 第一次打开时可以直接用 Clause 账号开始：邮箱收验证码登录、兑换充值码，从内置模型里选一个就能用，不需要 API Key\n· 填 API Key 的页面下面多了「没有 Key？用 Clause 账号」，点了直接换到登录",
+ "notes": "· Clause 内置的 Claude 模型可以走 Anthropic 原生接口：思考过程、思考深度和提示词缓存完整传给模型，多步任务和长对话效果更好\n· 让模型干活（读写文件、跑命令）时的说明更细：先看清楚再改、改完自己检查、最后说清楚改了什么\n· 管理员：上游可以打开「走 Anthropic 原生接口」，模型里能「测试思考深度」",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.26-app.asar.gz",
-   "size": 12449998,
-   "sha256": "d3596ed7bb72ba8edbf60ce2633080598701558b7393107bde5b639ad5c40a36",
+   "name": "Clause-1.6.27-app.asar.gz",
+   "size": 12455926,
+   "sha256": "01e65cae96af36a83c5dba491932f3cf70d4bf1c036e9bf16fa73d96eaafb9f5",
    "unpacked": {
-    "size": 19533158,
-    "sha256": "e79f803297d637c8ecfaed4c0b5b134d886c3fdb66e60434d278db3b239d191f"
+    "size": 19551370,
+    "sha256": "3bcad37b71afdb6ff43fc5b75144dc475f238293f2d536f821341de684ea1fd5"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/970afaf6a8c59e7e53879f62c7279774a6bef951/app/Clause-1.6.26-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@970afaf6a8c59e7e53879f62c7279774a6bef951/app/Clause-1.6.26-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@970afaf6a8c59e7e53879f62c7279774a6bef951/app/Clause-1.6.26-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@970afaf6a8c59e7e53879f62c7279774a6bef951/app/Clause-1.6.26-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/51f2f6404d2ba685fd26045aa3afcbd8509ccad4/app/Clause-1.6.27-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@51f2f6404d2ba685fd26045aa3afcbd8509ccad4/app/Clause-1.6.27-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@51f2f6404d2ba685fd26045aa3afcbd8509ccad4/app/Clause-1.6.27-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@51f2f6404d2ba685fd26045aa3afcbd8509ccad4/app/Clause-1.6.27-app.asar.gz"
    ]
   }
  }
