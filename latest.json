@@ -1,23 +1,23 @@
 {
- "version": "1.6.29",
+ "version": "1.6.30",
  "date": "2026-11-06",
  "notes": "修复了一些问题，添加了一些新功能。",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.29-app.asar.gz",
-   "size": 12460708,
-   "sha256": "03868682286f6b994f1b1dc385b2ed7f422ad71e82a84a17761396b9d5f5bb8b",
+   "name": "Clause-1.6.30-app.asar.gz",
+   "size": 12462339,
+   "sha256": "46a0420dc6c32a22fc7309d30f14ae9e5fb9c8fd4d7e42fc918c908225df185f",
    "unpacked": {
-    "size": 19571054,
-    "sha256": "c348e52d3347a3d7d8ae51f9a1428b4f40a0ee60856d7018ba358f94fd0c646c"
+    "size": 19573315,
+    "sha256": "04f59525a88e3045dd16aa42107b208b348d4dc7641b9567433a2b78e60020ff"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/d83f6c014f79f3fbefa87d6d1e4c9e5b84f0175a/app/Clause-1.6.29-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@d83f6c014f79f3fbefa87d6d1e4c9e5b84f0175a/app/Clause-1.6.29-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@d83f6c014f79f3fbefa87d6d1e4c9e5b84f0175a/app/Clause-1.6.29-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@d83f6c014f79f3fbefa87d6d1e4c9e5b84f0175a/app/Clause-1.6.29-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/83e155fba9bfc874e18fef2a8e5c0a8fe0b8179b/app/Clause-1.6.30-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@83e155fba9bfc874e18fef2a8e5c0a8fe0b8179b/app/Clause-1.6.30-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@83e155fba9bfc874e18fef2a8e5c0a8fe0b8179b/app/Clause-1.6.30-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@83e155fba9bfc874e18fef2a8e5c0a8fe0b8179b/app/Clause-1.6.30-app.asar.gz"
    ]
   }
  }
