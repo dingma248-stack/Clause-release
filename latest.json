@@ -1,23 +1,23 @@
 {
- "version": "1.6.28",
+ "version": "1.6.29",
  "date": "2026-11-06",
- "notes": "· 管理员：上架模型时可以只给指定的用户——「谁能用」选「指定用户」，填对方登录 Clause 用的邮箱（还没注册的会标出来）\n· 被指定的用户马上就能在模型菜单里看到、使用这个模型；其他人看不到它",
+ "notes": "· APIPod 的视频模型（比如 Seedance 2.5）不用再手动设置接口，直接就能生成\n· 别的服务也多认一种视频接口（/videos/generations）；一种都不认识时，卡片会说清试过哪些、去哪里设置，不再只显示「服务端拒绝了这次请求」\n· 服务商不接受生成请求时，卡片直接显示服务商自己给的原因",
  "files": {
   "win32-x64-app": {
-   "name": "Clause-1.6.28-app.asar.gz",
-   "size": 12459417,
-   "sha256": "b08b89965f02c5f686321525ed150573cbc9b4a07636e72c164d05066b6dd235",
+   "name": "Clause-1.6.29-app.asar.gz",
+   "size": 12460708,
+   "sha256": "03868682286f6b994f1b1dc385b2ed7f422ad71e82a84a17761396b9d5f5bb8b",
    "unpacked": {
-    "size": 19565031,
-    "sha256": "2802b49681414f6fa8d6fedf555152cb228f4d8249b964e83ba5d9a8830c90a5"
+    "size": 19571054,
+    "sha256": "c348e52d3347a3d7d8ae51f9a1428b4f40a0ee60856d7018ba358f94fd0c646c"
    },
    "electron": "44.4.3",
    "from": "1.5.1",
    "urls": [
-    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/4cf8317802fa8086d8147570cda5d426edae513a/app/Clause-1.6.28-app.asar.gz",
-    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@4cf8317802fa8086d8147570cda5d426edae513a/app/Clause-1.6.28-app.asar.gz",
-    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@4cf8317802fa8086d8147570cda5d426edae513a/app/Clause-1.6.28-app.asar.gz",
-    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@4cf8317802fa8086d8147570cda5d426edae513a/app/Clause-1.6.28-app.asar.gz"
+    "https://raw.githubusercontent.com/dingma248-stack/Clause-release/d83f6c014f79f3fbefa87d6d1e4c9e5b84f0175a/app/Clause-1.6.29-app.asar.gz",
+    "https://cdn.jsdelivr.net/gh/dingma248-stack/Clause-release@d83f6c014f79f3fbefa87d6d1e4c9e5b84f0175a/app/Clause-1.6.29-app.asar.gz",
+    "https://fastly.jsdelivr.net/gh/dingma248-stack/Clause-release@d83f6c014f79f3fbefa87d6d1e4c9e5b84f0175a/app/Clause-1.6.29-app.asar.gz",
+    "https://gcore.jsdelivr.net/gh/dingma248-stack/Clause-release@d83f6c014f79f3fbefa87d6d1e4c9e5b84f0175a/app/Clause-1.6.29-app.asar.gz"
    ]
   }
  }
